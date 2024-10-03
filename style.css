@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; 
+}
+
+div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 15px 25px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.add {
+    background-color: #28a745;
+}
+
+.add:hover {
+    background-color: #218838;
+}
+
+.sub {
+    background-color: #dc3545;
+}
+
+.sub:hover {
+    background-color: #c82333;
+}
+
+#counter {
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
